@@ -28,7 +28,7 @@ public class PracticeSwitch {
 				break;
 			}
 			// 要素を足して出力
-			System.out.println(number + ":" + job);
+			System.out.println(number + ": " + job);
 		}
 	}
 }
