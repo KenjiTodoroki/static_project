@@ -2,8 +2,7 @@ package practice;
 
 public class PracticeSwitch {
 
-	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ		
+	public static void main(String[] args) {		
 		int[] numbers = { 1, 2, 4, 1, 5, 5, 2, 1, 3, 1 }; // 要素が10個入るint型の配列を作成
 
 		for (int number : numbers) { // 拡張for文を使い配列の要素を順番に取り出すint型の変数を定義

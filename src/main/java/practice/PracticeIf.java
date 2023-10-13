@@ -3,7 +3,6 @@ package practice;
 public class PracticeIf {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
 		int integer = 0; // 初期値
 
 		for (int i = 1; i <= 100; i++) { // int型ループカウンタ変数iを使用して1から100になるまで1を足していく
