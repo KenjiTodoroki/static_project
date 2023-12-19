@@ -16,7 +16,7 @@ public class EvenNumber {
 
 		for (int number : numbers) {
 			if (number % 2 == 0) {
-				count += 1;
+				count++;
 			}
 		}
 		return count;

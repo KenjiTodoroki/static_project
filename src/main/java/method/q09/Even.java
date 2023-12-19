@@ -3,20 +3,23 @@ package method.q09;
 public class Even {
 
 	public static void main(String[] args) {
-		int number1 = 10;
-		int number2 = 5;
-		String checkEven1 = checkEven(number1);
-		String checkEven2 = checkEven(number2);
+		int[] numbers = { 10, 5 };
 
-		System.out.println(number1 + "は" + checkEven1 + "です。");
-		System.out.println(number2 + "は" + checkEven2 + "です。");
+		for (int number : numbers) {
+			if (checkEven(number)) {
+				System.out.println(number + "は偶数です。");
+			} else {
+				System.out.println(number + "は奇数です。");
+			}
+		}
+
 	}
 
-	public static String checkEven(int number) {
+	public static boolean checkEven(int number) {
 		if (number % 2 == 0) {
-			return "偶数";
+			return true;
 		} else {
-			return "奇数";
+			return false;
 		}
 	}
 
